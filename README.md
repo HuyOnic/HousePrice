@@ -4,9 +4,7 @@ nguồn dữ liệu được crawl từ trong web https://phongtro123.com/ một
 # Cài đặt các libraries cần thiết
 Bạn chạy lệnh 
 ````
-```
-Look! You can see my backticks.
-```
+pip install -r requirements.txt
 ````
 
 Để thực hiện quá trình crawl dữ liệu, bạn hãy chạy file crawling.py. Qúa trình craw sẽ được diễn ra hoàn toàn tự động
