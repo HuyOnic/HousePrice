@@ -100,7 +100,7 @@ class DataScraping():
     def __str__(self):
         return f'{self.prices}\n{self.acreages}\n{self.locations}\n{self.links}\n{self.post_authors}\n{self.time_uploads}\n{self.title}'
 
-
-path = 'https://phongtro123.com/tinh-thanh/ha-noi'
-Obj = DataScraping(path)
-Obj.RunTool()
+if __name__ == '__main__':
+    path = 'https://phongtro123.com/tinh-thanh/ha-noi'
+    Obj = DataScraping(path)
+    Obj.RunTool()
